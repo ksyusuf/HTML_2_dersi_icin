@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>İNŞ MÜH - HAFTALAR</title>
+</head>
+<body class="w3-container">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="stil.css">
+
+    <div class="header">
+      <a href="index.html" style="text-decoration: none"> <h1>YKCKY</h1></a>
+        <h1 style="color:blue"> >> Haftalar << </h1>
+    </div>
+
+    <div class="w3-cyan w3-center">
+        <div class="w3-navbar w3-red w3-center" style="width:auto">
+          <button class="w3-button" style="width:45%"><a href="index.html" class="w3-button" style="display: block">EV</a></button>
+          <button class="w3-button" style="width:45%"><a href="haftalar.html" class="w3-button" style="display: block">HAFTALAR</a></button>
+        </div>
+    </div>
+
+
+    <div class="clearfix">
+
+      <div class="column menu">
+        <ul >
+            <li><a href="#" onclick="goster_gizle(0)"><s>Hafta 1</s></a></li>
+            <li><a href="#" onclick="goster_gizle(1)"><s>Hafta 2</s></a></li>
+            <li><a href="#" onclick="goster_gizle(2)"><s>Hafta 3</s></a></li>
+            <li><a href="#" onclick="goster_gizle(3)">Hafta 4</a></li>
+            <li><a href="#" onclick="goster_gizle(4)" style="background-color: blue">Hafta 5</a></li>
+            <li><a href="#" onclick="goster_gizle(5)">Hafta 6</a></li>
+            <li><a href="#" onclick="goster_gizle(6)">Hafta 7</a></li>
+            <li><a href="#" onclick="goster_gizle(7)">Hafta 8</a></li>
+            <li><a href="#" onclick="goster_gizle(8)">Hafta 9</a></li>
+            <li><a href="#" onclick="goster_gizle(9)">Hafta 10</a></li>
+            <li><a href="#" onclick="goster_gizle(10)">Hafta 11</a></li>
+            <li><a href="#" onclick="goster_gizle(11)">Hafta 12</a></li>
+            <li><a href="#" onclick="goster_gizle(12)">Hafta 13</a></li>
+            <li><a href="#" onclick="goster_gizle(13)">Hafta 14</a></li>
+            <li><a href="#" onclick="goster_gizle(14)">Hafta 15</a></li>
+        </ul>
+      </div>
+
+        <script>
+            function goster_gizle(hafta) {
+              var x = document.getElementsByClassName("ornekler");
+              var i = 0;
+              while ( i < 15) {
+                  if ( i === hafta) {
+                      if (x[i].style.display === "block") {
+                        x[i].style.display = "none";
+                      } else {
+                        x[i].style.display = "block";
+                      }
+                  } else{
+                    x[i].style.display = "none";
+                  }
+                  i++;
+              }
+            }
+        </script>
+
+        <div class="icerikler">
+        <div class="ornekler">
+          <div class="column content_ornekler">
+            <h1>Birinci hafta</h1>
+            <h2>Burada bir şey yok</h2>
+            </div>
+        </div>
+
+        <div class="ornekler">
+          <div class="column content_ornekler">
+            <h1>İkinci hafta</h1>
+            <h2>Burada bir şey yok</h2>
+            </div>
+        </div>
+
+        <div class="ornekler">
+          <div class="column content_ornekler">
+            <h1>Üçüncü hafta</h1>
+            <h2>Burada bir şey yok</h2>
+            </div>
+        </div>
+
+        <div class="ornekler">
+          <div class="column content_ornekler">
+            <h1>Dördüncü hafta</h1>
+            <h2>Tablolar</h2>
+            <a href="Haftalar/h4_o1.html">
+              <p>
+                1. tablo çalışması için <span class="vurgu">git--></span>
+              </p>
+            </a>
+            <h2>İkinci konu</h2>
+            <p>Örnek başlıklarına tıklayınca aşağda pencere açılır örneğin içeriği burada yazar.</p>
+          </div>
+        </div>
+
+        <div class="ornekler">
+          <div class="column content_ornekler">
+            <h1>Beşinci hafta</h1>
+            <p>Örneklerin başlıklarını satır satır eklerim buraya.</p>
+            <p>Örnek başlıklarına tıklayınca aşağda pencere açılır örneğin içeriği burada yazar.</p>
+          </div>
+        </div>
+
+        <div class="ornekler">
+          <div class="column content_ornekler">
+            <h1>Altıncı hafta</h1>
+            <p>Örneklerin başlıklarını satır satır eklerim buraya.</p>
+            <p>Örnek başlıklarına tıklayınca aşağda pencere açılır örneğin içeriği burada yazar.</p>
+          </div>
+        </div>
+
+        <div class="ornekler">
+          <div class="column content_ornekler">
+            <h1>Yedinci hafta</h1>
+            <p>Örneklerin başlıklarını satır satır eklerim buraya.</p>
+            <p>Örnek başlıklarına tıklayınca aşağda pencere açılır örneğin içeriği burada yazar.</p>
+          </div>
+        </div>
+
+        <div class="ornekler">
+          <div class="column content_ornekler">
+            <h1>Sekizinci hafta</h1>
+            <p>Örneklerin başlıklarını satır satır eklerim buraya.</p>
+            <p>Örnek başlıklarına tıklayınca aşağda pencere açılır örneğin içeriği burada yazar.</p>
+          </div>
+        </div>
+
+        <div class="ornekler">
+          <div class="column content_ornekler">
+            <h1>Dokuzuncu hafta</h1>
+            <p>Örneklerin başlıklarını satır satır eklerim buraya.</p>
+            <p>Örnek başlıklarına tıklayınca aşağda pencere açılır örneğin içeriği burada yazar.</p>
+          </div>
+        </div>
+
+        <div class="ornekler">
+          <div class="column content_ornekler">
+            <h1>Onuncu hafta</h1>
+            <p>Örneklerin başlıklarını satır satır eklerim buraya.</p>
+            <p>Örnek başlıklarına tıklayınca aşağda pencere açılır örneğin içeriği burada yazar.</p>
+          </div>
+        </div>
+
+        <div class="ornekler">
+          <div class="column content_ornekler">
+            <h1>On Birinci hafta</h1>
+            <p>Örneklerin başlıklarını satır satır eklerim buraya.</p>
+            <p>Örnek başlıklarına tıklayınca aşağda pencere açılır örneğin içeriği burada yazar.</p>
+          </div>
+        </div>
+
+        <div class="ornekler">
+          <div class="column content_ornekler">
+            <h1>On İkinci hafta</h1>
+            <p>Örneklerin başlıklarını satır satır eklerim buraya.</p>
+            <p>Örnek başlıklarına tıklayınca aşağda pencere açılır örneğin içeriği burada yazar.</p>
+          </div>
+        </div>
+
+        <div class="ornekler">
+          <div class="column content_ornekler">
+            <h1>On Üçüncü hafta</h1>
+            <p>Örneklerin başlıklarını satır satır eklerim buraya.</p>
+            <p>Örnek başlıklarına tıklayınca aşağda pencere açılır örneğin içeriği burada yazar.</p>
+          </div>
+        </div>
+
+        <div class="ornekler">
+          <div class="column content_ornekler">
+            <h1>On Dördüncü hafta</h1>
+            <p>Örneklerin başlıklarını satır satır eklerim buraya.</p>
+            <p>Örnek başlıklarına tıklayınca aşağda pencere açılır örneğin içeriği burada yazar.</p>
+          </div>
+        </div>
+
+        <div class="ornekler">
+          <div class="column content_ornekler">
+            <h1>On Beşinci hafta</h1>
+            <p>Örneklerin başlıklarını satır satır eklerim buraya.</p>
+            <p>Örnek başlıklarına tıklayınca aşağda pencere açılır örneğin içeriği burada yazar.</p>
+          </div>
+        </div>
+        </div>
+
+
+    </div>
+
+    <div class="footer">
+
+    </div>
+
+</body>
+</html>
+
+
