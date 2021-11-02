@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Örnek 1</title>
+</head>
+<body class="w3-container">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="stil.css">
+
+    <div class="header">
+      <a href="../haftalar.html" style="text-decoration: none"> <h1><<< GERİ</h1></a>
+    </div>
+
+    
+
+    <div style="margin-left:8%; margin-top:1%">
+         <form action="h5_o1_al.php" method="get">
+            <b>Numara:</b> <input type="text" name="num" placeholder="Numara Giriniz" />
+         <br/>
+            <b>Adınız:</b> <input type="text" name="ad" placeholder="İsim Giriniz" />
+         <br/>
+            <b>Bölüm:
+            <select name="bolum" size="1">
+             <option> Bilgisayar </option>
+             <option> Elektronik </option>
+             <option> Elektrik </option>
+             <option> Otomotiv </option>
+            </select>
+         </br></br>
+            <b>Dersler: </b></b><br/>
+            <div>
+                 <input type="checkbox" name="d1" value="1" /> Matematik <br/>
+                 <input type="checkbox" name="d1" value="2" /> Türk Dili <br/>
+                 <input type="checkbox" name="d1" value="3" /> Yabancı Dil <br/>
+                 <input type="checkbox" name="d1" value="4" /> Programlama <br/>
+                 <input type="checkbox" name="d1" value="5" /> Web Tasarım <br/>
+             </div>
+             </br>
+             
+             <b>Öğrenim türü: </b><br/>
+            <div>
+                 <input type="radio" name="t1"/> Örgün Öğretim <br/>
+                 <input type="radio" name="t1"/> İkinci Öğretim <br/></br>             
+                 <input type="submit" value="GÖNDER"/>
+                 <input type="reset" value="TEMİZLE"/>
+             </div>
+         </form>
+     </div>
+
+
+</body>
+</html>
+
+<style>
+
+    input{
+        margin-bottom: 10px;
+    }
+
+</style>
