@@ -17,9 +17,7 @@
       <a href="../haftalar.html" style="text-decoration: none"> <h1><<< GERÝ</h1></a>
     </div>
 
-    <?php
-        $db->query('SET NAMES utf8');
-    ?>
+    
 
     <div style="margin-left:8%; margin-top:1%">
         <?php
