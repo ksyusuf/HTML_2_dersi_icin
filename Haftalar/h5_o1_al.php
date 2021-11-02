@@ -2,7 +2,10 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <title>Örnek 1</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Hafta 5</title>
+
 </head>
 <body class="w3-container">
 
@@ -15,25 +18,33 @@
     </div>
 
     <?php
-    /*$numara = $_GET["num"];
-    $ad = $_GET["ad"];
-    $adres= $_GET["adr"];
-    echo "Numara: ".$numara."Ad: ".$ad."Adres: ".$adres
-    */
-
-    //php'yi sunucu ya da yerel sunucular yorumlayabiliyor. ona göre.
-    if(isset($_GET["num"])) $numara = $_GET["num"];
-    else $numara = "";
-    if(isset($_GET["ad"])) $ad= $_GET["ad"];
-    else $ad= "";
-    if(isset($_GET["adr"])) $adres = $_GET["adr"];
-    else $adres = "";
-    echo "<h2>HOÞGELDÝNÝZ &nbsp".$ad."</h2>";
-    echo "Gönderidiðiniz veriler: <br/>";
-    echo "Numara: ".$numara."<br/>";
-    echo "Ad: ".$ad."<br/>";
-    echo "Adres: ".$adres;
+        $db->query('SET NAMES utf8');
     ?>
+
+    <div style="margin-left:8%; margin-top:1%">
+        <?php
+            /*$numara = $_GET["num"];
+            $ad = $_GET["ad"];
+            $adres= $_GET["adr"];
+            echo "Numara: ".$numara."Ad: ".$ad."Adres: ".$adres
+            */
+
+            //php'yi sunucu ya da yerel sunucular yorumlayabiliyor. ona göre.
+            // yani php yorumlayýcýlar bu iþi yapar. sunucular da buna sahip.
+
+            if(isset($_GET["num"])) $numara = $_GET["num"];
+            else $numara = "";
+            if(isset($_GET["ad"])) $ad= $_GET["ad"];
+            else $ad= "";
+            if(isset($_GET["adr"])) $adres = $_GET["adr"];
+            else $adres = "";
+            echo "<h2>HOÞGELDÝN &nbsp".$ad."!</h2>";
+            echo "Gönderidiðiniz veriler: </br></br>";
+            echo "Numara: ".$numara."<br/>";
+            echo "Ad: ".$ad."<br/>";
+            echo "Adres: ".$adres;
+        ?>
+    <div>
 
 
 </body>
