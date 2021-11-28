@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="stil.css">
 
     <div class="header">
-      <a href="../haftalar.html" style="text-decoration: none"> <h1><<< GERÝ</h1></a>
+      <a href="../haftalar.html" style="text-decoration: none"> <h1><<< GERï¿½</h1></a>
     </div>
 
     
@@ -27,8 +27,8 @@
             echo "Numara: ".$numara."Ad: ".$ad."Adres: ".$adres
             */
 
-            //php'yi sunucu ya da yerel sunucular yorumlayabiliyor. ona göre.
-            // yani php yorumlayýcýlar bu iþi yapar. sunucular da buna sahip.
+            //php'yi sunucu ya da yerel sunucular yorumlayabiliyor. ona gï¿½re.
+            // yani php yorumlayï¿½cï¿½lar bu iï¿½i yapar. sunucular da buna sahip.
 
             if(isset($_GET["num"])) $numara = $_GET["num"];
             else $numara = "";
@@ -36,8 +36,8 @@
             else $ad= "";
             if(isset($_GET["adr"])) $adres = $_GET["adr"];
             else $adres = "";
-            echo "<h2>HOÞGELDÝN &nbsp".$ad."!</h2>";
-            echo "Gönderidiðiniz veriler: </br></br>";
+            echo "<h2>HOÅžGELDÄ°N &nbsp".$ad."!</h2>";
+            echo "GÃ¶nderdiÄŸiniz veriler: </br></br>";
             echo "Numara: ".$numara."<br/>";
             echo "Ad: ".$ad."<br/>";
             echo "Adres: ".$adres;
